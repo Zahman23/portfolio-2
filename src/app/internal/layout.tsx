@@ -8,6 +8,9 @@ interface InternalLayoutProps {
 export const metadata: Metadata = {
   title: "Internal",
   description: "internal Project",
+  icons: {
+    icon: "logo.png",
+  },
 };
 
 const InternalLayout = ({ children }: InternalLayoutProps) => {

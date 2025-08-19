@@ -9,7 +9,10 @@ const InternalPage = () => {
     <Wrapper>
       <div className="flex items-center justify-center min-h-screen w-full">
         <Link href={"/"}>
-          <Title title="Maaf Project tidak bisa dikunjungi dikarena project bersifat Internal project" />
+          <Title
+            icon={true}
+            title="Maaf Project tidak bisa dikunjungi dikarena project bersifat Internal project"
+          />
         </Link>
       </div>
     </Wrapper>

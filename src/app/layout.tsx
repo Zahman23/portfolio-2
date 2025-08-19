@@ -15,6 +15,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Zidan Rohman",
   description: "Portfolio zidan rohman",
+  icons: {
+    icon: "logo.png",
+  },
 };
 
 export default function RootLayout({
